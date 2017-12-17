@@ -1,7 +1,5 @@
 # be.aivl.emailcorrector
 
-![Screenshot](/images/screenshot.png)
-
 AIVL specifieke extensie om emailadressen te corrigeren. Ontwikkeld op basis van de EmailAmender extensie van futurefirst.co.uk omdat die niet beschikbaar is in CiviCRM 4.6. Wordt na overgang naar 4.7 bij AIVL samengevoegd met de EmailAmender extensie.
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).

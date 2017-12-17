@@ -1,3 +1,8 @@
+<div id="help">
+  {ts}Het gaat hier om de correctie van het deel van het e-mailadres achter de punt. Dus bijvoorbeeld .con wordt gecorrigeerd naar .com.
+    Als je een regel invult moet je zowel het deel met het foute patroon als de correctie invullen. Lege regels worden niet opgeslagen, die kun je rustig laten staan.{/ts}
+</div>
+
 <div class="crm-submit-buttons">
 {include file="CRM/common/formButtons.tpl" location="top"}
 </div>

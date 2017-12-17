@@ -1,3 +1,7 @@
+<div id="help">
+  {ts}LET OP: De e-mailadressen die je hier opgeeft worden verwijderd uit de database!{/ts}
+</div>
+
 <div class="crm-submit-buttons">
 {include file="CRM/common/formButtons.tpl" location="top"}
 </div>

@@ -1,6 +1,6 @@
 <div class="crm-content-block crm-block">
   <div id="help">
-    {ts}instellingen voor email correcties. Let op, alleen het deel achter de @ kan gecorrigeerd worden!{/ts}
+    {ts}Instellingen voor email correcties. Let op, alleen het deel achter de @ kan gecorrigeerd worden!{/ts}
   </div>
   <div id="email_corrector_page_wrapper" class="dataTables_wrapper">
     <table id="email_corrector_-table" class="display">

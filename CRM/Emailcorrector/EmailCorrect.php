@@ -221,7 +221,7 @@ class CRM_Emailcorrector_EmailCorrect {
     if (!empty($this->_secondSettings)) {
       foreach ($this->_secondSettings as $source => $target) {
         $this->_fixQueryIndex++;
-        $this->_fixQueryParams[$this->_fixQueryIndex] = array('%@'.$source. '%', 'String');
+        $this->_fixQueryParams[$this->_fixQueryIndex] = array('%@'.$source. '.%', 'String');
         $whereFields[] = "email LIKE %".$this->_fixQueryIndex;
       }
     }

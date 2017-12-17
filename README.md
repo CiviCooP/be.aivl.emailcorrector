@@ -2,18 +2,16 @@
 
 ![Screenshot](/images/screenshot.png)
 
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
+AIVL specifieke extensie om emailadressen te corrigeren. Ontwikkeld op basis van de EmailAmender extensie van futurefirst.co.uk omdat die niet beschikbaar is in CiviCRM 4.6. Wordt na overgang naar 4.7 bij AIVL samengevoegd met de EmailAmender extensie.
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
 ## Requirements
 
 * PHP v5.4+
-* CiviCRM (*FIXME: Version number*)
+* CiviCRM (4.6 en hoger)
 
-## Installation (Web UI)
 
-This extension has not yet been published for installation via the web UI.
 
 ## Installation (CLI, Zip)
 
@@ -37,8 +35,5 @@ cv en emailcorrector
 
 ## Usage
 
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
+Extensie maakt menu item aan in Administer>Communications voor instellingen. Daarnaast moet handmatig een scheduled job aangemaakt worden voor de API EmailCorrect Fix. (Geen managed job omdat die altijd weer terugkomen na een clearcache ook al verwijder je de scheduled job!).
 
-## Known Issues
-
-(* FIXME *)

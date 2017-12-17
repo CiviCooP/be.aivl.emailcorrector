@@ -3,6 +3,24 @@
 require_once 'emailcorrector.civix.php';
 use CRM_Emailcorrector_ExtensionUtil as E;
 
+
+/**
+ * Implements hook_civicrm_navigationMenu().
+ *
+ * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_navigationMenu
+ */
+function emailcorrector_civicrm_navigationMenu(&$menu) {
+  _emailcorrector_civix_insert_navigation_menu($menu, 'Administer/Communications', array(
+    'label'      => E::ts('Manage AIVL Email Corrector Settings'),
+    'name'       => 'aivl_email_corrector',
+    'url'        => 'civicrm/emailcorrector/page/settings',
+    'permission' => 'administer CiviCRM',
+    'operator'   => 'OR',
+    'separator'  => 0,
+  ));
+  _emailcorrector_civix_navigationMenu($menu);
+}
+
 /**
  * Implements hook_civicrm_config().
  *

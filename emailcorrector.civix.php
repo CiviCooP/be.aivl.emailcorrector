@@ -372,11 +372,13 @@ function _emailcorrector_civix_insert_navigation_menu(&$menu, $path, $item) {
     $path = explode('/', $path);
     $first = array_shift($path);
     foreach ($menu as $key => &$entry) {
-      if ($entry['attributes']['name'] == $first) {
-        if (!isset($entry['child'])) {
-          $entry['child'] = array();
+      if (isset($entry['attributes']['name'])) {
+        if ($entry['attributes']['name'] == $first) {
+          if (!isset($entry['child'])) {
+            $entry['child'] = array();
+          }
+          $found = _emailcorrector_civix_insert_navigation_menu($entry['child'], implode('/', $path), $item, $key);
         }
-        $found = _emailcorrector_civix_insert_navigation_menu($entry['child'], implode('/', $path), $item, $key);
       }
     }
     return $found;

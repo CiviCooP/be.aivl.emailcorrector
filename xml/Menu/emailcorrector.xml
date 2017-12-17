@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/emailcorrector/page/settings</path>
+    <page_callback>CRM_Emailcorrector_Page_Settings</page_callback>
+    <title>EmailCorrector Settings Page</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/emailcorrector/form/settings</path>
+    <page_callback>CRM_Emailcorrector_Form_Settings</page_callback>
+    <title>EmailCorrector Settings Form</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>

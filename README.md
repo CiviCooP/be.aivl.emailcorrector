@@ -1,3 +1,5 @@
+Extension moved to https://lab.civicrm.org/partners/civicoop/aivl/be.aivl.emailcorrector
+
 # be.aivl.emailcorrector
 
 AIVL specifieke extensie om emailadressen te corrigeren. Ontwikkeld op basis van de EmailAmender extensie van futurefirst.co.uk omdat die niet beschikbaar is in CiviCRM 4.6. Wordt na overgang naar 4.7 bij AIVL samengevoegd met de EmailAmender extensie.
